@@ -1,0 +1,104 @@
+Testsuite: chatsTest
+Tests run: 11, Failures: 9, Errors: 2, Skipped: 0, Time elapsed: 88.319 sec
+------------- Standard Output ---------------
+messageLoop
+main
+collectMessages
+messPrint
+messTotal
+featureComing
+messHash
+Welcome
+messJSONsave
+messReview
+messID
+------------- ---------------- ---------------
+
+Testcase: testMessageLoop took 70.762 sec
+	FAILED
+The test case is a prototype.
+junit.framework.AssertionFailedError: The test case is a prototype.
+	at chatsTest.testMessageLoop(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+Testcase: testMain took 0.039 sec
+	FAILED
+The test case is a prototype.
+junit.framework.AssertionFailedError: The test case is a prototype.
+	at chatsTest.testMain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+Testcase: testCollectMessages took 2.755 sec
+	FAILED
+The test case is a prototype.
+junit.framework.AssertionFailedError: The test case is a prototype.
+	at chatsTest.testCollectMessages(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+Testcase: testMessPrint took 1.505 sec
+	FAILED
+The test case is a prototype.
+junit.framework.AssertionFailedError: The test case is a prototype.
+	at chatsTest.testMessPrint(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+Testcase: testMessTotal took 1.431 sec
+	FAILED
+The test case is a prototype.
+junit.framework.AssertionFailedError: The test case is a prototype.
+	at chatsTest.testMessTotal(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+Testcase: testFeatureComing took 1.098 sec
+	FAILED
+The test case is a prototype.
+junit.framework.AssertionFailedError: The test case is a prototype.
+	at chatsTest.testFeatureComing(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+Testcase: testMessHash took 0.022 sec
+	Caused an ERROR
+Range [0, 2) out of bounds for length 0
+java.lang.StringIndexOutOfBoundsException: Range [0, 2) out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at chats.messHash(Unknown Source)
+	at chatsTest.testMessHash(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+Testcase: testWelcome took 0.006 sec
+	Caused an ERROR
+Cannot invoke "javax.swing.ImageIcon.getImage()" because "<parameter2>" is null
+java.lang.NullPointerException: Cannot invoke "javax.swing.ImageIcon.getImage()" because "<parameter2>" is null
+	at chats.Welcome(Unknown Source)
+	at chatsTest.testWelcome(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+Testcase: testMessJSONsave took 2.523 sec
+	FAILED
+The test case is a prototype.
+junit.framework.AssertionFailedError: The test case is a prototype.
+	at chatsTest.testMessJSONsave(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+Testcase: testMessReview took 8.035 sec
+	FAILED
+The test case is a prototype.
+junit.framework.AssertionFailedError: The test case is a prototype.
+	at chatsTest.testMessReview(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+Testcase: testMessID took 0.018 sec
+	FAILED
+expected: <> but was: <9155290001>
+junit.framework.AssertionFailedError: expected: <> but was: <9155290001>
+	at chatsTest.testMessID(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+

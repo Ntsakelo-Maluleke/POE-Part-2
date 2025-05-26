@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="chatsickle" default="test" basedir=".">
+
+    <!-- Properties -->
+    <property name="src.dir" location="src"/>
+    <property name="test.dir" location="test"/>
+    <property name="build.dir" location="build"/>
+    <property name="classes.dir" location="${build.dir}/classes"/>
+    <property name="test.classes.dir" location="${build.dir}/test/classes"/>
+    <property name="lib.dir" location="lib"/>
+
+    <!-- Classpath for compiling and running -->
+    <path id="compile.classpath">
+        <fileset dir="${lib.dir}" includes="**/*.jar"/>
+    </path>
+
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+    </target>
+
+    <target name="compile" depends="clean">
+        <mkdir dir="${classes.dir}"/>
+        <javac srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="false" classpathref="compile.classpath"/>
+    </target>
+
+    <target name="compile-tests" depends="compile">
+        <mkdir dir="${test.classes.dir}"/>
+        <javac srcdir="${test.dir}" destdir="${test.classes.dir}" includeantruntime="false" classpathref="compile.classpath">
+            <classpath>
+                <pathelement location="${classes.dir}"/>
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="test" depends="compile-tests">
+        <junit printsummary="yes" haltonfailure="yes" fork="true" maxmemory="512m">
+            <classpath>
+                <pathelement location="${classes.dir}"/>
+                <pathelement location="${test.classes.dir}"/>
+                <path refid="compile.classpath"/>
+            </classpath>
+            <batchtest>
+                <fileset dir="${test.classes.dir}">
+                    <include name="**/*Test.class"/>
+                </fileset>
+            </batchtest>
+            <formatter type="plain"/>
+            <formatter type="xml"/>
+        </junit>
+    </target>
+    
+    <target name="test-single" depends="compile-tests">
+    <junit printsummary="yes" haltonfailure="yes" fork="true" maxmemory="512m">
+        <classpath>
+            <pathelement location="${classes.dir}"/>
+            <pathelement location="${test.classes.dir}"/>
+            <path refid="compile.classpath"/>
+        </classpath>
+        <!-- Use the fully qualified name of your test class here -->
+        <test name="chatsTest" />
+        <formatter type="plain"/>
+        <formatter type="xml"/>
+    </junit>
+</target>
+
+</project>

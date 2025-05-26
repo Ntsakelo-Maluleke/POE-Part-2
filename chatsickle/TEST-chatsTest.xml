@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="2" failures="9" hostname="labAJ4H0X" name="chatsTest" skipped="0" tests="11" time="88.319" timestamp="2025-05-25T20:51:28">
+  <properties>
+    <property name="ant.library.dir" value="C:\Users\RC_Student_lab\Documents\NetBeansProjects\apache-ant-1.10.15\lib" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.specification.version" value="21" />
+    <property name="ant.project.name" value="chatsickle" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.class.path" value="C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\build\classes;C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\build\test\classes;C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\lib\apiguardian-api-1.1.2.jar;C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\lib\gson-2.8.9.jar;C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\lib\junit-jupiter-api-5.10.0.jar;C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\lib\junit-jupiter-engine-5.10.0.jar;C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\lib\junit-platform-commons-1.10.0.jar;C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\lib\junit-platform-console-standalone-1.10.0.jar;C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\lib\opentest4j-1.2.0.jar;C:\Users\RC_Student_lab\Documents\NetBeansProjects\apache-ant-1.10.15\lib\ant-launcher.jar;C:\Users\RC_Student_lab\Documents\NetBeansProjects\apache-ant-1.10.15\lib\ant.jar;C:\Users\RC_Student_lab\Documents\NetBeansProjects\apache-ant-1.10.15\lib\ant-junit.jar;C:\Users\RC_Student_lab\Documents\NetBeansProjects\apache-ant-1.10.15\lib\ant-junit4.jar" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="user.variant" value="" />
+    <property name="ant.file.type.chatsickle" value="file" />
+    <property name="java.vendor.url" value="https://java.oracle.com/" />
+    <property name="java.vm.specification.version" value="21" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="US" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner chatsTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\TEST-chatsTest.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\TEST-chatsTest.xml crashfile=C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\junitvmwatcher1176429814557277595.properties propsfile=C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\junit8960374138914178714.properties" />
+    <property name="test.classes.dir" value="C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\build\test\classes" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="test.dir" value="C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\test" />
+    <property name="user.home" value="C:\Users\RC_Student_lab" />
+    <property name="user.language" value="en" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2024-01-16" />
+    <property name="java.home" value="C:\Program Files\Java\jdk-21" />
+    <property name="basedir" value="C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle" />
+    <property name="file.separator" value="\" />
+    <property name="java.vm.compressedOopsMode" value="32-bit" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="ant.java.version" value="21" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="user.script" value="" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.runtime.version" value="21.0.2+13-LTS-58" />
+    <property name="user.name" value="RC_Student_lab" />
+    <property name="ant.file" value="C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\build.xml" />
+    <property name="stdout.encoding" value="Cp1252" />
+    <property name="path.separator" value=";" />
+    <property name="os.version" value="10.0" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="build.dir" value="C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\build" />
+    <property name="ant.core.lib" value="C:\Users\RC_Student_lab\Documents\NetBeansProjects\apache-ant-1.10.15\lib\ant.jar" />
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="java.io.tmpdir" value="C:\Users\RC_STU~1\AppData\Local\Temp\" />
+    <property name="java.version" value="21.0.2" />
+    <property name="user.dir" value="C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle" />
+    <property name="os.arch" value="amd64" />
+    <property name="ant.file.chatsickle" value="C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\build.xml" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.home" value="C:\Users\RC_Student_lab\Documents\NetBeansProjects\apache-ant-1.10.15\bin\.." />
+    <property name="lib.dir" value="C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\lib" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="native.encoding" value="Cp1252" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.15 compiled on August 25 2024" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\nodejs\;C:\Users\RC_Student_lab\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\RC_Student_lab\AppData\Roaming\npm;C:\Users\RC_Student_lab\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\RC_Student_lab\AppData\Local\GitHubDesktop\bin;C:\Users\RC_Student_lab\Documents\NetBeansProjects\apache-ant-1.10.15\bin;;." />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="stderr.encoding" value="Cp1252" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="java.vm.version" value="21.0.2+13-LTS-58" />
+    <property name="classes.dir" value="C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\build\classes" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="java.class.version" value="65.0" />
+    <property name="src.dir" value="C:\Users\RC_Student_lab\Documents\NetBeansProjects\chatsickle\src" />
+    <property name="ant.project.default-target" value="test" />
+  </properties>
+  <testcase classname="chatsTest" name="testMessageLoop" time="70.765">
+    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
+	at chatsTest.testMessageLoop(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</failure>
+  </testcase>
+  <testcase classname="chatsTest" name="testMain" time="0.04">
+    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
+	at chatsTest.testMain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</failure>
+  </testcase>
+  <testcase classname="chatsTest" name="testCollectMessages" time="2.756">
+    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
+	at chatsTest.testCollectMessages(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</failure>
+  </testcase>
+  <testcase classname="chatsTest" name="testMessPrint" time="1.505">
+    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
+	at chatsTest.testMessPrint(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</failure>
+  </testcase>
+  <testcase classname="chatsTest" name="testMessTotal" time="1.432">
+    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
+	at chatsTest.testMessTotal(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</failure>
+  </testcase>
+  <testcase classname="chatsTest" name="testFeatureComing" time="1.098">
+    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
+	at chatsTest.testFeatureComing(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</failure>
+  </testcase>
+  <testcase classname="chatsTest" name="testMessHash" time="0.023">
+    <error message="Range [0, 2) out of bounds for length 0" type="java.lang.StringIndexOutOfBoundsException">java.lang.StringIndexOutOfBoundsException: Range [0, 2) out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at chats.messHash(Unknown Source)
+	at chatsTest.testMessHash(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</error>
+  </testcase>
+  <testcase classname="chatsTest" name="testWelcome" time="0.007">
+    <error message="Cannot invoke &quot;javax.swing.ImageIcon.getImage()&quot; because &quot;&lt;parameter2&gt;&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;javax.swing.ImageIcon.getImage()&quot; because &quot;&lt;parameter2&gt;&quot; is null
+	at chats.Welcome(Unknown Source)
+	at chatsTest.testWelcome(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</error>
+  </testcase>
+  <testcase classname="chatsTest" name="testMessJSONsave" time="2.525">
+    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
+	at chatsTest.testMessJSONsave(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</failure>
+  </testcase>
+  <testcase classname="chatsTest" name="testMessReview" time="8.035">
+    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
+	at chatsTest.testMessReview(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</failure>
+  </testcase>
+  <testcase classname="chatsTest" name="testMessID" time="0.018">
+    <failure message="expected: &lt;&gt; but was: &lt;9155290001&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected: &lt;&gt; but was: &lt;9155290001&gt;
+	at chatsTest.testMessID(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</failure>
+  </testcase>
+  <system-out><![CDATA[messageLoop
+main
+collectMessages
+messPrint
+messTotal
+featureComing
+messHash
+Welcome
+messJSONsave
+messReview
+messID
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
